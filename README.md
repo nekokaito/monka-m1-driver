@@ -25,6 +25,18 @@ Official driver package for the **Monka M1** and **Monka M1 Pro** gaming mice by
 
 ---
 
+## 🖼 Screenshots
+
+![App](https://i.ibb.co.com/yvJ4cqZ/Screenshot-2025-04-19-195732.png)
+
+
+![Main Interface](https://i.ibb.co.com/Y7x9SyQN/Screenshot-2025-04-19-195825.png)
+
+
+![Polling Rate](https://i.ibb.co.com/JWs8xP4C/Screenshot-2025-04-19-195759.png)
+
+---
+
 ## 🖥 System Requirements
 
 - Windows 10 or 11 (64-bit)
