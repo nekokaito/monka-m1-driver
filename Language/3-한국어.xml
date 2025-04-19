@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<한국어>
+  <FontSize>10.5</FontSize>
+  <Control>
+    <label_KeyDebounce>버튼 응답 시간</label_KeyDebounce>
+    <label_DPIGrade>DPI 등급</label_DPIGrade>
+    <label_DPISetting>DPI 설정</label_DPISetting>
+    <label_MotionSync>모션 일치</label_MotionSync>
+    <label_FixLine>직선 수정</label_FixLine>
+    <label_Ripple>파문제어</label_Ripple>
+    <label_LOD>LOD 수준</label_LOD>
+    <label_ModeSelect>모드 설정</label_ModeSelect>
+    <label_FullPerformance>최고 성능</label_FullPerformance>
+    <label_SensorSetting>센서 설정</label_SensorSetting>
+    <label_Report>투자 수익률</label_Report>
+    <label_DPIBrightness>밝기</label_DPIBrightness>
+    <label_DPISpeed>속력</label_DPISpeed>
+    <label_DPIEffect>DPI 밝기 효과</label_DPIEffect>
+    <label_CycleTimes>사이클 횟수</label_CycleTimes>
+    <label_UntilThisKeyPressed>사이클 키 눌릴때까지</label_UntilThisKeyPressed>
+    <label_UntilKeyPressed>사이클 키 눌릴때</label_UntilKeyPressed>
+    <label_UntilKeyReleased>사이클 키 놓을때</label_UntilKeyReleased>
+    <label_InsertEvent>엑션/행동 삽입</label_InsertEvent>
+    <label_AutoDelay>자동 삽입 지연 시간</label_AutoDelay>
+    <label_DefaultDelay>기본 지연 시간</label_DefaultDelay>
+    <label_KeyList>키 목록</label_KeyList>
+    <label_MacroList>매크로 목록</label_MacroList>
+    <label_MovingCloseLight>이동할때 불빛 꺼짐</label_MovingCloseLight>
+    <label_PowerSaveTime>정지 후 조명 꺼진 시간</label_PowerSaveTime>
+    <label_LEDB>B:</label_LEDB>
+    <label_LEDG>G:</label_LEDG>
+    <label_LEDR>R:</label_LEDR>
+    <label_LEDPreset>기본 색깔</label_LEDPreset>
+    <label_LEDPreview>색 미리보기</label_LEDPreview>
+    <label_LEDColor>조명색</label_LEDColor>
+    <label_LightSpeed>속도</label_LightSpeed>
+    <label_LightBrightness>밝기</label_LightBrightness>
+    <label_LightMode>조명 모드</label_LightMode>
+    <customRecordMacro1_start>녹화 시작</customRecordMacro1_start>
+    <customRecordMacro1_stop>녹화 중지</customRecordMacro1_stop>
+    <customButton_Export>내보내기</customButton_Export>
+    <customButton_Import>가져오기</customButton_Import>
+    <customButton_Reset>복원</customButton_Reset>
+    <customButton_Save>저장</customButton_Save>
+    <customButton_DeleteButton>삭제</customButton_DeleteButton>
+    <customButton_ModifyButton>수정</customButton_ModifyButton>
+    <customButton_DeleteMacro>삭제</customButton_DeleteMacro>
+    <customButton_NewMacro>새 매크로</customButton_NewMacro>
+  </Control>
+  <ComboBox>
+    <ComboBoxName>customComboBox_Config</ComboBoxName>
+    <Item value="0000">배치 1</Item>
+    <Item value="0001">배치 2</Item>
+    <Item value="0002">배치 3</Item>
+    <Item value="0003">배치 4</Item>
+    <ComboBoxName>customComboBox_LOD</ComboBoxName>
+    <Item value="0003">0.7mm</Item>
+    <Item value="0001">1mm</Item>
+    <Item value="0002">2mm</Item>
+    <ComboBoxName>customComboBox_ModeSelect</ComboBoxName>
+    <Item value="0000">LP</Item>
+    <Item value="0001">HP</Item>
+    <Item value="0010">Corded</Item>
+    <ComboBoxName>customComboBox_FullPerformance</ComboBoxName>
+    <Item value="0003">30초</Item>
+    <Item value="0006">1분</Item>
+    <Item value="0012">2분</Item>
+    <Item value="0030">5분</Item>
+    <Item value="0060">10분</Item>
+    <Item value="0090">15분</Item>
+    <ComboBoxName>customComboBox_DPIEffect</ComboBoxName>
+    <Item value="0000">전원 닫기</Item>
+    <Item value="0001">고정된 밝기</Item>
+    <Item value="0002">깜박임</Item>
+    <ComboBoxName>customComboBox_InsertEvent</ComboBoxName>
+    <Item value="0x800000">키 누르다</Item>
+    <Item value="0x400000">키 해제</Item>
+    <Item value="0xFF0000">지연</Item>
+    <Item value="0x040100">왼쪽 키</Item>
+    <Item value="0x040200">오른쪽 키</Item>
+    <Item value="0x040400">중간 키</Item>
+    <Item value="0x041000">앞으로 키</Item>
+    <Item value="0x040800">후퇴 키</Item>
+    <ComboBoxName>customComboBox_PowerSaveTime</ComboBoxName>
+    <Item value="0001">10초</Item>
+    <Item value="0003">30초</Item>
+    <Item value="0006">1분</Item>
+    <Item value="0030">5분</Item>
+    <Item value="0060">10분</Item>
+    <Item value="0090">15분</Item>
+    <Item value="0120">20분</Item>
+    <Item value="0150">25분</Item>
+    <Item value="0180">30분</Item>
+    <Item value="0210">35분</Item>
+    <Item value="0240">40분</Item>
+    <ComboBoxName>customComboBox_LEDMode</ComboBoxName>
+    <Item value="0000">전원 끄기</Item>
+    <Item value="0001">채색 옮기기</Item>
+    <Item value="0002">단색 </Item>
+    <Item value="0003">고정된 채색</Item>
+    <Item value="0004">네온</Item>
+    <Item value="0005">혼합 색상 깜박임</Item>
+    <Item value="0006">밝게 빛나다</Item>
+  </ComboBox>
+  <ToolStripMenuItem>
+    <ToolStripMenuItem_OpenMenu>기본 메뉴 열기</ToolStripMenuItem_OpenMenu>
+    <ToolStripMenuItem_Exit>프로그램 종료</ToolStripMenuItem_Exit>
+    <ToolStripMenuItem_Modify>수정</ToolStripMenuItem_Modify>
+    <ToolStripMenuItem_DeleteKeys>삭제</ToolStripMenuItem_DeleteKeys>
+    <ToolStripMenuItem_ExportMacro>매크로 내보내기</ToolStripMenuItem_ExportMacro>
+    <ToolStripMenuItem_Rename>이름을 고치다</ToolStripMenuItem_Rename>
+    <ToolStripMenuItem_DeleteMacro>삭제</ToolStripMenuItem_DeleteMacro>
+    <ToolStripMenuItem_NewMacro>새 매크로 만들기</ToolStripMenuItem_NewMacro>
+    <ToolStripMenuItem_ImportMacro>매크로 가져오기</ToolStripMenuItem_ImportMacro>
+  </ToolStripMenuItem>
+  <Setting>
+    <DriveVersion>드라이브 버전: </DriveVersion>
+    <DongleVersion>수신기 펌웨어 버전:</DongleVersion>
+    <MouseVersion>마우스 펌웨어 버전:</MouseVersion>
+  </Setting>
+  <Dialog>
+    <Macro>매크로</Macro>
+    <NoResources>그림 자료가 없습니다</NoResources>
+    <ErrorDriveConfig>드라이버 설정이 존재하지 않거나 잘못되었습니다</ErrorDriveConfig>
+    <ProgramRuning>프로그램이 실행 중입니다</ProgramRuning>
+    <DeviceConnecting>잠시만 기다려주세요, 설정이 업데이트하는 중입니다. </DeviceConnecting>
+    <ConnectTimeout>연결 시간이 초과되었습니다. 먼저 마우스를 움직이세요</ConnectTimeout>
+    <NoDevice>작동 가능한 장치가 감지되지 않음</NoDevice>
+    <MaxComboKey>키 곰비네이션은 최대 3개까지만 가능합니다. </MaxComboKey>
+    <ErrorMacroFile>가져온 매크로 문서에 오류가 있습니다</ErrorMacroFile>
+    <CreateMacro>먼저 매크로를 만드세요</CreateMacro>
+    <SameMacro>이미 사용중인 매크로 이름입니다</SameMacro>
+    <EditMacroName>매크로의 이름을 입력하세요</EditMacroName>
+    <SelectMacro>매크로를 우선 선택하세요</SelectMacro>
+    <StopMacro>매크로 녹화를 중지하십시오</StopMacro>
+    <InsertKey>키를 입력하세요</InsertKey>
+    <Delete>삭제하시겠습니까?</Delete>
+    <MaxMacroKey>매크로 키 개수가 이미 한도에 도달했다</MaxMacroKey>
+    <InsertDelay>지연시간을 입력하세요</InsertDelay>
+    <FireKeyTimes>횟수 (0-3)</FireKeyTimes>
+    <FireKeyInterval>간격 (10-255)</FireKeyInterval>
+    <InputComboKey>싱글 또는 콤보 키를 입력하세요</InputComboKey>
+    <FireKeyTips>횟수가 0으로 설정된 경우, 키가 눌려있을 경우 반복하고, 키를 놓으면 멈추세요 </FireKeyTips>
+    <ReserveLeftKey>왼쪽 키는 남겨 두어야 합니다</ReserveLeftKey>
+    <DebounceTips>주의:지연은 더블클릭으로 나타날 수 있습니다. 더블클릭 문제가 발생할 경우 더블클릭이 없을 때까지 지연 시간을 확대하십시오</DebounceTips>
+    <ConfigSelect>설정 전환은 지원되지 않습니다</ConfigSelect>
+    <ResetConfig>기본 설정을 복원하시겠습니까</ResetConfig>
+    <ImportConfig>설정을 가져오는 중 잠시만 기다려 주십시오</ImportConfig>
+    <ErrorConfig>설정 파일 가져오기 오류</ErrorConfig>
+    <ErrorDevice>가져오신 설정 파일이 기기와 일치하지 않습니다</ErrorDevice>
+    <MultiOnline>동일한 장치가 여러 개 존재하며, 작동해야 할 장치가 보존된다</MultiOnline>
+    <EnterPair>재매칭이 필요한지 여부입니다</EnterPair>
+    <Offline>디바이스 오프라인, 마우스를 옮기세요</Offline>
+    <NewDeviceOnline>새 디바이스 온라인</NewDeviceOnline>
+    <LeftShift>왼쪽으로 이동한다</LeftShift>
+    <RightShift>오른쪽으로 이동한다</RightShift>
+    <MoveUp>위로 이동한다</MoveUp>
+    <MoveDown>아래로 이동한다</MoveDown>
+    <OK>OK(Enter)</OK>
+    <Cancel>취소(Esc)</Cancel>
+    <SelectDeviceFirst>디바이스를 먼저 선택하십시오</SelectDeviceFirst>
+    <SelectDevice>디바이스를 골르시오</SelectDevice>
+    <StartPair>페어링 시작(Space)</StartPair>
+    <PairTips>포인터가 깜박일 때까지 3초 동안 왼쪽, 중, 오른쪽 단추를 누르고 페어링한 상태에서 수신기에 가까이 가서"페어링 시작"을 누르거나 키보드 스페이스 바를 눌러주세요.</PairTips>
+    <MultiPairDevice>디바이스가 여러 개 있습니다. 페어링할 디바이스만 보관하십시오</MultiPairDevice>
+    <NoPairDevice>현재 사용할 수 있는 수신기가 없습니다. 디바이스가 삽입되었는지 확인하십시오</NoPairDevice>
+    <CantPair>무선 모드 페어링만 지원됩니다 </CantPair>
+    <OnlyWired>마우스는 유선 모드에서만 업데이트할 수 있습니다</OnlyWired>
+    <DevicePairing>페어링 중</DevicePairing>
+    <PairSuccess>페어링 성공</PairSuccess>
+    <PairFail>페어링 실패</PairFail>
+    <PairRetry>재시도</PairRetry>
+    <PairingTool>페어링 도구</PairingTool>
+    <CheckUpdate>업데이트 확인</CheckUpdate>
+    <CheckingUpdate>확인중</CheckingUpdate>
+    <LatestVersion>현재 최신 버전입니다</LatestVersion>
+    <Updating>업데이트중</Updating>
+    <UpdateSuccess>업데이트 성공</UpdateSuccess>
+    <UpdateFail>업데이트 실패</UpdateFail>
+    <UpdatingDontMove>업데이트 중이니 장치를 뺴지 마십시오</UpdatingDontMove>
+    <ConnectDevice>게임기를 연결하십시오</ConnectDevice>
+    <RepairDevice>업그레이드에 실패한 장치 (키보드 enter 또는 느낌표 아이콘)를 먼저 업데이트하십시오.</RepairDevice>
+    <AdvancedSetting>고급 설정</AdvancedSetting>
+    <CantSet>무선 모드에서만 원격 모드를 설정할 수 있습니다</CantSet>
+    <PowerBetterMode>원거리 모드</PowerBetterMode>
+    <PowerModeSelectTips>원거리모드에서는 거리가 더욱 멀어지고 교란방지능력이 더욱 강해지며 상응하게 동작전류가 증가하고 사용시간이 감소된다</PowerModeSelectTips>
+    <MousepadSurfaceCal>마우스 패드 표면 조정</MousepadSurfaceCal>
+    <ManualCal>수동 보정</ManualCal>
+    <NonsupCal>이 센서는 수동 조정을 지원하지 않습니다</NonsupCal>
+    <MousepadSurfaceCalTips>마우스와 마우스 패드의 최적의 조합을 찾아 정밀도를 높여 보십시오</MousepadSurfaceCalTips>
+    <WinSystemMouse>Windows 마우스 속성</WinSystemMouse>
+    <StartCal>"시작"단추를 누르고, 화살표 방향으로 마우스를 움직여 주십시오</StartCal>
+    <BeingCal>마우스 조정 중!조정이 끝날 때까지 마우스를 계속 이동하십시오</BeingCal>
+    <CalPass>보정 통과</CalPass>
+    <CalFail>보정 실패</CalFail>
+    <Start>시작</Start>
+    <Back>돌아가</Back>
+    <Retry>재시도</Retry>
+    <DongleLED>选择接收器上的LED指示灯所传达的信息：</DongleLED>
+    <ConnectionState>连接状态和回报率（只有当鼠标连接到接收器时才有按照不同回报率对应的颜色点亮。红色（125Hz），蓝色（250Hz），黄色（500Hz），橙色（1000Hz），紫色（2000Hz），绿色（4000Hz））。</ConnectionState>
+    <BatteryState>电池状态（根据鼠标当前的电池电量，从绿色（100%），黄色（66%），橙色（33%）和红色（0%）逐渐变化。）</BatteryState>
+    <OnlyBattery>仅电池警告（始终保持熄灭，仅在鼠标需要充电式闪烁红色。）</OnlyBattery>
+    <Language>언어</Language>
+    <DeviceInfo>장치 정보</DeviceInfo>
+    <Other>기타</Other>
+    <SleepMode>절전 모드</SleepMode>
+    <MouseSleepTime>마우스 휴면 시간</MouseSleepTime>
+    <Pair>짝을(Space)</Pair>
+    <RunOnBoot>시동이 자동으로 걸리다</RunOnBoot>
+    <OfflineTips1>마우스가 오프라인 상태인 경우 마우스를 먼저 이동합니다</OfflineTips1>
+    <OfflineTips2>페어링이 되지 않으면 패턴을 클릭하여 페어링에 들어갑니다</OfflineTips2>
+    <OfflineTips3>페어링이 되지 않으면 스페이스바를 클릭하여 페어링으로 들어갑니다</OfflineTips3>
+    <DefaultDelayMin>기본 딜레이가 자그마치 10이다</DefaultDelayMin>
+    <DevNewVerTips>반드시 마우스와 리시버를 컴퓨터에 함께 꽂아서 펌웨어 업그레이드 하세요!업그레이드 성공 후 사용이 불가능한 경우, 매칭하셔서 사용해주세요!</DevNewVerTips>
+    <DongleIsNewTips>마우스 새 펌웨어를 찾았습니다. 유선에서 업데이트해주세요!</DongleIsNewTips>
+    <MouseIsNewTips>수신기에서 새 펌웨어를 찾았습니다. 지금 업데이트하시겠습니까?</MouseIsNewTips>
+    <FirmwareNewTips>새 펌웨어를 찾으면 업데이트하십시오!</FirmwareNewTips>
+    <DontShowAgain>다음엔 나타나지 말아요</DontShowAgain>
+    <EnterUse>그림을 사용하려면 누르십시오</EnterUse>
+    <ReturnHomePage>홈 페이지로 돌아가기</ReturnHomePage>
+    <MotionSyncDes></MotionSyncDes>
+    <FixLineDes></FixLineDes>
+    <RippleDes></RippleDes>
+    <LODDes></LODDes>
+    <ModeSelectDes></ModeSelectDes>
+    <FullPerformanceDes></FullPerformanceDes>
+    <Update>업 데이트（Enter）</Update>
+    <SyncUpdateTips>수신기와 케이블 마우스가 먼저 연결되어 있는지 확인하고 업그레이드 중에 프로그램을 닫거나 장치를 뽑지 마십시오.</SyncUpdateTips>
+    <ReadyUpdate>업데이트를 시작하려면"업데이트"단추를 클릭하십시오</ReadyUpdate>
+    <EmptyDongle>수신기가 연결되어 있는지 확인합니다</EmptyDongle>
+    <MultiDongle>수신기가 여러 개 발견되었습니다.업데이트해야 하는 수신기를 예약합니다</MultiDongle>
+    <EmptyMouse>마우스가 유선 모드에 있는지 확인합니다</EmptyMouse>
+    <MultiMouse>여러 개의 마우스가 발견되었습니다.업데이트해야 할 마우스를 예약합니다</MultiMouse>
+  </Dialog>
+  <KeyFunction>
+    <name type="01" value="0001" pull="00">왼쪽 버튼</name>
+    <name type="01" value="0002" pull="00">오른쪽 버튼</name>
+    <name type="01" value="0004" pull="00">중간 버튼</name>
+    <name type="01" value="0008" pull="00">뒤</name>
+    <name type="01" value="0010" pull="00">앞</name>
+    <name type="07" value="0000" pull="00">보고율 전환</name>
+    <name type="04" value="0000" pull="00">화력 키</name>
+    <name type="05" value="0000" pull="00">콤보 키</name>
+    <name type="00" value="0000" pull="00">정의할 키</name>
+    <name type="0B" value="0000" pull="01">스크롤 위/아래</name>
+    <name type="03" value="0000" pull="01">스크롤 좌/우</name>
+    <name type="02" value="0000" pull="01">DPI 전환</name>
+    <name type="05" value="0000" pull="01">미디어 키</name>
+    <name type="0A" value="0000" pull="01">DPI 잠금</name>
+    <name type="06" value="0000" pull="01">매크로</name>
+  </KeyFunction>
+  <SubKeyFunction>
+    <name type="02" value="0001">DPI 루프</name>
+    <name type="02" value="0002">DPI+</name>
+    <name type="02" value="0003">DPI-</name>
+    <name type="03" value="0001">왼쪽으로 스크롤</name>
+    <name type="03" value="0002">오른쪽으로 스크롤</name>
+    <name type="0B" value="0001">위로 스크롤</name>
+    <name type="0B" value="0002">아래로 스크롤</name>
+    <name type="05" value="0183">미디어 플레이어</name>
+    <name type="05" value="00CD">재생/일시 중지</name>
+    <name type="05" value="00B5">다음</name>
+    <name type="05" value="00B6">이전</name>
+    <name type="05" value="00B7">재생 중지</name>
+    <name type="05" value="00E2">무음</name>
+    <name type="05" value="00E9">볼륨 높이기</name>
+    <name type="05" value="00EA">볼륨 낮추다</name>
+    <name type="05" value="018A">이메일</name>
+    <name type="05" value="0192">계산기</name>
+    <name type="05" value="0194">내 컴퓨터</name>
+    <name type="05" value="0223">홈 페이지</name>
+    <name type="05" value="0221">검색</name>
+    <name type="05" value="0225">웹 전진</name>
+    <name type="05" value="0224">웹 페이지 뒤로</name>
+    <name type="05" value="0226">웹 페이지 중지</name>
+    <name type="05" value="0227">새로 고침</name>
+    <name type="05" value="022A">즐겨 찾기</name>
+    <name type="08" value="0000">모든 조명 켜기/끄기</name>
+    <name type="08" value="0003">전등 띠를 켜다/끄다</name>
+    <name type="08" value="0004">루프 스위치 조명 효과</name>
+    <name type="0A" value="0001">100</name>
+    <name type="0A" value="0002">200</name>
+    <name type="0A" value="0003">300</name>
+    <name type="0A" value="0004">400</name>
+    <name type="0A" value="0005">500</name>
+    <name type="0A" value="0006">600</name>
+    <name type="0A" value="0007">700</name>
+    <name type="0A" value="0008">800</name>
+    <name type="0A" value="0009">900</name>
+    <name type="0A" value="000A">1000</name>
+    <name type="0A" value="000B">1100</name>
+    <name type="0A" value="000C">1200</name>
+  </SubKeyFunction>
+  <DebounceTime>
+    <name value="0000">0ms</name>
+    <name value="0001">1ms</name>
+    <name value="0002">2ms</name>
+    <name value="0003">3ms</name>
+    <name value="0004">4ms</name>
+    <name value="0005">5ms</name>
+    <name value="0006">6ms</name>
+    <name value="0007">7ms</name>
+    <name value="0008">8ms</name>
+    <name value="0009">9ms</name>
+    <name value="000A">10ms</name>
+    <name value="000B">11ms</name>
+    <name value="000C">12ms</name>
+    <name value="000D">13ms</name>
+    <name value="000E">14ms</name>
+    <name value="000F">15ms</name>
+    <name value="0010">16ms</name>
+    <name value="0011">17ms</name>
+    <name value="0012">18ms</name>
+    <name value="0013">19ms</name>
+    <name value="0014">20ms</name>
+  </DebounceTime>
+</한국어>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<简体中文>
+  <FontSize>10.5</FontSize>
+  <Control>
+    <label_KeyDebounce>按钮响应时间</label_KeyDebounce>
+    <label_DPIGrade>DPI 级数</label_DPIGrade>
+    <label_DPISetting>DPI 设置</label_DPISetting>
+    <label_MotionSync>Motion sync</label_MotionSync>
+    <label_FixLine>直线修正</label_FixLine>
+    <label_Ripple>波纹控制</label_Ripple>
+    <label_LOD>LOD高度</label_LOD>
+    <label_ModeSelect>模式选择</label_ModeSelect>
+    <label_FullPerformance>火力全开</label_FullPerformance>
+    <label_SensorSetting>Sensor 设置</label_SensorSetting>
+    <label_Report>回报率</label_Report>
+    <label_DPIBrightness>亮度</label_DPIBrightness>
+    <label_DPISpeed>速度</label_DPISpeed>
+    <label_DPIEffect>DPI 灯效</label_DPIEffect>
+    <label_CycleTimes>循环次数</label_CycleTimes>
+    <label_UntilThisKeyPressed>循环至此按键按下</label_UntilThisKeyPressed>
+    <label_UntilKeyPressed>循环直到任意键按下</label_UntilKeyPressed>
+    <label_UntilKeyReleased>循环直到按键松开</label_UntilKeyReleased>
+    <label_InsertEvent>插入事件</label_InsertEvent>
+    <label_AutoDelay>自动插入延时</label_AutoDelay>
+    <label_DefaultDelay>默认延时</label_DefaultDelay>
+    <label_KeyList>按键列表</label_KeyList>
+    <label_MacroList>宏列表</label_MacroList>
+    <label_MovingCloseLight>移动时灯光关闭</label_MovingCloseLight>
+    <label_PowerSaveTime>放停后灯光关闭时间</label_PowerSaveTime>
+    <label_LEDB>B:</label_LEDB>
+    <label_LEDG>G:</label_LEDG>
+    <label_LEDR>R:</label_LEDR>
+    <label_LEDPreset>预设颜色</label_LEDPreset>
+    <label_LEDPreview>颜色预览</label_LEDPreview>
+    <label_LEDColor>灯光颜色</label_LEDColor>
+    <label_LightSpeed>速度</label_LightSpeed>
+    <label_LightBrightness>亮度</label_LightBrightness>
+    <label_LightMode>灯光模式</label_LightMode>
+    <customRecordMacro1_start>开始录制宏</customRecordMacro1_start>
+    <customRecordMacro1_stop>停止录制宏</customRecordMacro1_stop>
+    <customButton_Export>导出配置</customButton_Export>
+    <customButton_Import>导入配置</customButton_Import>
+    <customButton_Reset>恢复默认</customButton_Reset>
+    <customButton_Save>保存</customButton_Save>
+    <customButton_DeleteButton>删除</customButton_DeleteButton>
+    <customButton_ModifyButton>修改</customButton_ModifyButton>
+    <customButton_DeleteMacro>删除</customButton_DeleteMacro>
+    <customButton_NewMacro>新建宏</customButton_NewMacro>
+  </Control>
+  <ComboBox>
+    <ComboBoxName>customComboBox_Config</ComboBoxName>
+    <Item value="0000">配置 1</Item>
+    <Item value="0001">配置 2</Item>
+    <Item value="0002">配置 3</Item>
+    <Item value="0003">配置 4</Item>
+    <ComboBoxName>customComboBox_LOD</ComboBoxName>
+    <Item value="0003">0.7mm</Item>
+    <Item value="0001">1mm</Item>
+    <Item value="0002">2mm</Item>
+    <ComboBoxName>customComboBox_ModeSelect</ComboBoxName>
+    <Item value="0000">LP</Item>
+    <Item value="0001">HP</Item>
+    <Item value="0010">Corded</Item>
+    <ComboBoxName>customComboBox_FullPerformance</ComboBoxName>
+    <Item value="0003">30秒</Item>
+    <Item value="0006">1分钟</Item>
+    <Item value="0012">2分钟</Item>
+    <Item value="0030">5分钟</Item>
+    <Item value="0060">10分钟</Item>
+    <Item value="0090">15分钟</Item>
+    <ComboBoxName>customComboBox_DPIEffect</ComboBoxName>
+    <Item value="0000">关闭</Item>
+    <Item value="0001">常亮</Item>
+    <Item value="0002">呼吸</Item>
+    <ComboBoxName>customComboBox_InsertEvent</ComboBoxName>
+    <Item value="0x800000">按键按下</Item>
+    <Item value="0x400000">按键释放</Item>
+    <Item value="0xFF0000">延时</Item>
+    <Item value="0x040100">左键</Item>
+    <Item value="0x040200">右键</Item>
+    <Item value="0x040400">中键</Item>
+    <Item value="0x041000">前进键</Item>
+    <Item value="0x040800">后退键</Item>
+    <ComboBoxName>customComboBox_PowerSaveTime</ComboBoxName>
+    <Item value="0001">10秒</Item>
+    <Item value="0003">30秒</Item>
+    <Item value="0006">1分钟</Item>
+    <Item value="0030">5分钟</Item>
+    <Item value="0060">10分钟</Item>
+    <Item value="0090">15分钟</Item>
+    <Item value="0120">20分钟</Item>
+    <Item value="0150">25分钟</Item>
+    <Item value="0180">30分钟</Item>
+    <Item value="0210">35分钟</Item>
+    <Item value="0240">40分钟</Item>
+    <ComboBoxName>customComboBox_LEDMode</ComboBoxName>
+    <Item value="0000">关闭</Item>
+    <Item value="0001">彩色流动</Item>
+    <Item value="0002">单色呼吸</Item>
+    <Item value="0003">彩色常亮</Item>
+    <Item value="0004">霓虹</Item>
+    <Item value="0005">混彩呼吸</Item>
+    <Item value="0006">炫彩常亮</Item>
+  </ComboBox>
+  <ToolStripMenuItem>
+    <ToolStripMenuItem_OpenMenu>打开主界面</ToolStripMenuItem_OpenMenu>
+    <ToolStripMenuItem_Exit>退出程序</ToolStripMenuItem_Exit>
+    <ToolStripMenuItem_Modify>修改</ToolStripMenuItem_Modify>
+    <ToolStripMenuItem_DeleteKeys>删除</ToolStripMenuItem_DeleteKeys>
+    <ToolStripMenuItem_ExportMacro>导出该宏</ToolStripMenuItem_ExportMacro>
+    <ToolStripMenuItem_Rename>重命名</ToolStripMenuItem_Rename>
+    <ToolStripMenuItem_DeleteMacro>删除</ToolStripMenuItem_DeleteMacro>
+    <ToolStripMenuItem_NewMacro>新建宏</ToolStripMenuItem_NewMacro>
+    <ToolStripMenuItem_ImportMacro>导入宏</ToolStripMenuItem_ImportMacro>
+  </ToolStripMenuItem>
+  <Setting>
+    <DriveVersion>驱动版本：</DriveVersion>
+    <DongleVersion>接收器固件版本：</DongleVersion>
+    <MouseVersion>鼠标固件版本：</MouseVersion>
+  </Setting>
+  <Dialog>
+    <Macro>宏</Macro>
+    <NoResources>没有图片资源</NoResources>
+    <ErrorDriveConfig>驱动配置不存在或者错误</ErrorDriveConfig>
+    <ProgramRuning>程序处于运行状态</ProgramRuning>
+    <DeviceConnecting>请稍等，正在更新设定</DeviceConnecting>
+    <ConnectTimeout>连接超时，请先移动鼠标</ConnectTimeout>
+    <NoDevice>未检测到可以操作的设备</NoDevice>
+    <MaxComboKey>组合键最多只能有三个按键</MaxComboKey>
+    <ErrorMacroFile>导入的宏文件错误</ErrorMacroFile>
+    <CreateMacro>请先创建一个宏</CreateMacro>
+    <SameMacro>已经有一个同名的宏</SameMacro>
+    <EditMacroName>请输入宏的名称</EditMacroName>
+    <SelectMacro>请先选择一个宏</SelectMacro>
+    <StopMacro>请先停止宏录制</StopMacro>
+    <InsertKey>请输入一个按键</InsertKey>
+    <Delete>确定删除？</Delete>
+    <MaxMacroKey>宏按键个数已达上限</MaxMacroKey>
+    <InsertDelay>请输入延迟时间</InsertDelay>
+    <FireKeyTimes>次数（0-3）</FireKeyTimes>
+    <FireKeyInterval>间隔（10-255）</FireKeyInterval>
+    <InputComboKey>请输入单键或组合键</InputComboKey>
+    <FireKeyTips>次数设置为0时，按下按键一直发，松开按键结束</FireKeyTips>
+    <ReserveLeftKey>左键必须保留</ReserveLeftKey>
+    <DebounceTips>警示：调低延迟有可能出现按键双击，如果出现双击问题请调大延迟时间直到没有双击</DebounceTips>
+    <ConfigSelect>不支持切换配置</ConfigSelect>
+    <ResetConfig>是否需要恢复默认设置</ResetConfig>
+    <ImportConfig>请稍等，正在导入配置</ImportConfig>
+    <ErrorConfig>导入的配置有误</ErrorConfig>
+    <ErrorDevice>导入的配置和该设备不匹配</ErrorDevice>
+    <MultiOnline>存在多个相同设备，保留需要操作的设备</MultiOnline>
+    <EnterPair>是否需要重新配对</EnterPair>
+    <Offline>鼠标处于离线状态，请先移动鼠标</Offline>
+    <NewDeviceOnline>有新设备在线</NewDeviceOnline>
+    <LeftShift>左移</LeftShift>
+    <RightShift>右移</RightShift>
+    <MoveUp>上移</MoveUp>
+    <MoveDown>下移</MoveDown>
+    <OK>确定(Enter)</OK>
+    <Cancel>取消(Esc)</Cancel>
+    <SelectDeviceFirst>请先选择接收器</SelectDeviceFirst>
+    <SelectDevice>选择接收器</SelectDevice>
+    <StartPair>开始配对(Space)</StartPair>
+    <PairTips>请让鼠标进入配对状态（同时按住左中右键3秒，直至对码指示灯快闪），并靠近接收器 ，点击“开始配对”或按键盘的空格键</PairTips>
+    <MultiPairDevice>发现多个接收器，请只保留需要操作的接收器</MultiPairDevice>
+    <NoPairDevice>当前没有发现可以操作的接收器，请确认是否已插入接收器</NoPairDevice>
+    <CantPair>无线模式下，才能进入配对</CantPair>
+    <OnlyWired>鼠标只有在有线模式下才能更新</OnlyWired>
+    <DevicePairing>正在配对</DevicePairing>
+    <PairSuccess>配对成功</PairSuccess>
+    <PairFail>配对失败</PairFail>
+    <PairRetry>重试</PairRetry>
+    <PairingTool>配对工具</PairingTool>
+    <CheckUpdate>检查更新</CheckUpdate>
+    <CheckingUpdate>正在检查</CheckingUpdate>
+    <LatestVersion>当前是最新版本</LatestVersion>
+    <Updating>正在更新</Updating>
+    <UpdateSuccess>更新成功</UpdateSuccess>
+    <UpdateFail>更新失败</UpdateFail>
+    <UpdatingDontMove>正在更新，请勿拔出设备</UpdatingDontMove>
+    <ConnectDevice>请接入你的游戏装备</ConnectDevice>
+    <RepairDevice>请先更新升级失败的设备（键盘enter或点感叹号图标）</RepairDevice>
+    <AdvancedSetting>高级设置</AdvancedSetting>
+    <PowerBetterMode>远距离模式</PowerBetterMode>
+    <CantSet>无线模式下才能设置远距离模式</CantSet>
+    <PowerModeSelectTips>远距离模式下，距离会更远抗干扰能力更强，相应工作电流会加大，使用时间减少</PowerModeSelectTips>
+    <MousepadSurfaceCal>鼠标垫表面校准</MousepadSurfaceCal>
+    <ManualCal>手动校准</ManualCal>
+    <NonsupCal>这款传感器不支持手动校准</NonsupCal>	
+    <MousepadSurfaceCalTips>找到鼠标与鼠标垫的最佳搭配参数，体验更高级别的追踪精度</MousepadSurfaceCalTips>
+    <WinSystemMouse>Windows鼠标属性</WinSystemMouse>
+    <StartCal>请点击“开始”按钮，并按箭头方向移动鼠标</StartCal>
+    <BeingCal>正在校准鼠标!请继续移动鼠标直到校准完成</BeingCal>
+    <CalPass>校准成功</CalPass>
+    <CalFail>校准失败</CalFail>
+    <Start>开始</Start>
+    <Back>返回</Back>
+    <Retry>重试</Retry>
+    <DongleLED>选择接收器上的LED指示灯所传达的信息：</DongleLED>
+    <ConnectionState>连接状态和回报率（只有当鼠标连接到接收器时才有按照不同回报率对应的颜色点亮。红色（125Hz），蓝色（250Hz），黄色（500Hz），橙色（1000Hz），紫色（2000Hz），绿色（4000Hz））。</ConnectionState>
+    <BatteryState>电池状态（根据鼠标当前的电池电量，从绿色（100%），黄色（66%），橙色（33%）和红色（0%）逐渐变化。）</BatteryState>
+    <OnlyBattery>仅电池警告（始终保持熄灭，仅在鼠标低电量时红色闪烁。）</OnlyBattery>
+    <Language>语言</Language>
+    <DeviceInfo>设备信息</DeviceInfo>
+    <Other>其他</Other>
+    <SleepMode>休眠模式</SleepMode>
+    <MouseSleepTime>放停后鼠标休眠时间</MouseSleepTime>
+    <Pair>配对(Space)</Pair>
+    <RunOnBoot>开机自动启动</RunOnBoot>
+    <OfflineTips1>若鼠标处于离线状态，请先移动鼠标</OfflineTips1>
+    <OfflineTips2>若未配对过，请点击图案进行配对</OfflineTips2>
+    <OfflineTips3>若未配对过，请单击空格键进入配对</OfflineTips3>
+    <DefaultDelayMin>默认延时值不低于10</DefaultDelayMin>
+    <DevNewVerTips>请务必同时将鼠标和接收器插入电脑，进行固件升级 ！ 若升级成功后不能使用，请进行配对后再使用！</DevNewVerTips>
+    <DongleIsNewTips>鼠标发现新固件，请先在有线下更新！</DongleIsNewTips>
+    <MouseIsNewTips>接收器发现新固件，是否现在更新？</MouseIsNewTips>
+    <FirmwareNewTips>发现新固件，请更新！</FirmwareNewTips>
+    <DontShowAgain>下次不再显示</DontShowAgain>
+    <EnterUse>点击图案开始使用</EnterUse>
+    <ReturnHomePage>返回主页</ReturnHomePage>
+    <MotionSyncDes>圆滑修正算法</MotionSyncDes>
+    <FixLineDes>修正直线轨迹</FixLineDes>
+    <RippleDes>修正波浪形抖动</RippleDes>
+    <LODDes>静默高度</LODDes>
+    <ModeSelectDes> LP：普通模式；HP：高性能模式；corded：超性能模式</ModeSelectDes>
+    <FullPerformanceDes>传感器LED灯高亮，传感器处于最高性能的工作模式</FullPerformanceDes>
+    <Update>升级（Enter）</Update>
+    <SyncUpdateTips>请先确保插入接收器和有线鼠标，升级期间请勿关闭程序或者拔插设备。</SyncUpdateTips>
+    <ReadyUpdate>点击“升级”按钮开始升级</ReadyUpdate>
+    <EmptyDongle>请确认是否已插入接收器</EmptyDongle>
+    <MultiDongle>发现多个接收器，请保留需要升级的接收器</MultiDongle>
+    <EmptyMouse>请确认鼠标是否处于有线模式</EmptyMouse>
+    <MultiMouse>发现多个鼠标，请保留需要升级的鼠标</MultiMouse>
+  </Dialog>
+  <KeyFunction>
+    <name type="01" value="0001" pull="00">左键</name>
+    <name type="01" value="0002" pull="00">右键</name>
+    <name type="01" value="0004" pull="00">中键</name>
+    <name type="01" value="0008" pull="00">后退键</name>
+    <name type="01" value="0010" pull="00">前进键</name>
+    <name type="07" value="0000" pull="00">切换报告率</name>
+    <name type="04" value="0000" pull="00">火力键</name>
+    <name type="05" value="0000" pull="00">组合键</name>
+    <name type="00" value="0000" pull="00">待定义按键</name>
+    <name type="0B" value="0000" pull="01">滚轮上/下滚动</name>
+    <name type="03" value="0000" pull="01">滚轮左/右摇摆</name>
+    <name type="02" value="0000" pull="01">DPI切换</name>
+    <name type="05" value="0000" pull="01">多媒体功能</name>
+    <name type="0A" value="0000" pull="01">DPI锁定</name>
+    <name type="06" value="0000" pull="01">宏定义</name>
+  </KeyFunction>
+  <SubKeyFunction>
+    <name type="02" value="0001">DPI循环</name>
+    <name type="02" value="0002">DPI+</name>
+    <name type="02" value="0003">DPI-</name>
+    <name type="03" value="0001">滚轮左摆</name>
+    <name type="03" value="0002">滚轮右摆</name>
+    <name type="0B" value="0001">滚轮上滚</name>
+    <name type="0B" value="0002">滚轮下滚</name>
+    <name type="05" value="0183">播放器</name>
+    <name type="05" value="00CD">播放/暂停</name>
+    <name type="05" value="00B5">下一曲</name>
+    <name type="05" value="00B6">上一曲</name>
+    <name type="05" value="00B7">停止播放</name>
+    <name type="05" value="00E2">静音</name>
+    <name type="05" value="00E9">音量加</name>
+    <name type="05" value="00EA">音量减</name>
+    <name type="05" value="018A">邮件</name>
+    <name type="05" value="0192">计算器</name>
+    <name type="05" value="0194">我的电脑</name>
+    <name type="05" value="0223">主页</name>
+    <name type="05" value="0221">搜索</name>
+    <name type="05" value="0225">网页前进</name>
+    <name type="05" value="0224">网页后退</name>
+    <name type="05" value="0226">停止网页</name>
+    <name type="05" value="0227">刷新</name>
+    <name type="05" value="022A">收藏夹</name>
+    <name type="08" value="0000">开/关所有装饰灯</name>
+    <name type="08" value="0003">开/关灯带</name>
+    <name type="08" value="0004">循环切换灯带效果</name>
+    <name type="0A" value="0001">100</name>
+    <name type="0A" value="0002">200</name>
+    <name type="0A" value="0003">300</name>
+    <name type="0A" value="0004">400</name>
+    <name type="0A" value="0005">500</name>
+    <name type="0A" value="0006">600</name>
+    <name type="0A" value="0007">700</name>
+    <name type="0A" value="0008">800</name>
+    <name type="0A" value="0009">900</name>
+    <name type="0A" value="000A">1000</name>
+    <name type="0A" value="000B">1100</name>
+    <name type="0A" value="000C">1200</name>
+  </SubKeyFunction>
+  <DebounceTime>
+    <name value="0000">0ms</name>
+    <name value="0001">1ms</name>
+    <name value="0002">2ms</name>
+    <name value="0003">3ms</name>
+    <name value="0004">4ms</name>
+    <name value="0005">5ms</name>
+    <name value="0006">6ms</name>
+    <name value="0007">7ms</name>
+    <name value="0008">8ms</name>
+    <name value="0009">9ms</name>
+    <name value="000A">10ms</name>
+    <name value="000B">11ms</name>
+    <name value="000C">12ms</name>
+    <name value="000D">13ms</name>
+    <name value="000E">14ms</name>
+    <name value="000F">15ms</name>
+    <name value="0010">16ms</name>
+    <name value="0011">17ms</name>
+    <name value="0012">18ms</name>
+    <name value="0013">19ms</name>
+    <name value="0014">20ms</name>
+  </DebounceTime>
+</简体中文>

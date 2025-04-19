@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<繁體中文>
+  <FontSize>10.5</FontSize>
+  <Control>
+    <label_KeyDebounce>按鈕回應時間</label_KeyDebounce>
+    <label_DPIGrade>DPI 級數</label_DPIGrade>
+    <label_DPISetting>DPI 設置</label_DPISetting>
+    <label_MotionSync>Motion sync</label_MotionSync>
+    <label_FixLine>直線修正</label_FixLine>
+    <label_Ripple>波紋控制</label_Ripple>
+    <label_LOD>LOD高度</label_LOD>
+    <label_ModeSelect>模式選擇</label_ModeSelect>
+    <label_FullPerformance>火力全開</label_FullPerformance>
+    <label_SensorSetting>Sensor 設置</label_SensorSetting>
+    <label_Report>回報率</label_Report>
+    <label_DPIBrightness>亮度</label_DPIBrightness>
+    <label_DPISpeed>速度</label_DPISpeed>
+    <label_DPIEffect>DPI 燈效</label_DPIEffect>
+    <label_CycleTimes>迴圈次數</label_CycleTimes>
+    <label_UntilThisKeyPressed>迴圈至此鍵按下</label_UntilThisKeyPressed>
+    <label_UntilKeyPressed>迴圈直到任意鍵按下</label_UntilKeyPressed>
+    <label_UntilKeyReleased>迴圈直到按鍵鬆開</label_UntilKeyReleased>
+    <label_InsertEvent>插入事件</label_InsertEvent>
+    <label_AutoDelay>自動插入延時</label_AutoDelay>
+    <label_DefaultDelay>默認延時</label_DefaultDelay>
+    <label_KeyList>按鍵列表</label_KeyList>
+    <label_MacroList>宏列表</label_MacroList>
+    <label_MovingCloseLight>移動時燈光關閉</label_MovingCloseLight>
+    <label_PowerSaveTime>放停後燈光關閉時間</label_PowerSaveTime>
+    <label_LEDB>B:</label_LEDB>
+    <label_LEDG>G:</label_LEDG>
+    <label_LEDR>R:</label_LEDR>
+    <label_LEDPreset>預設顏色</label_LEDPreset>
+    <label_LEDPreview>顏色預覽</label_LEDPreview>
+    <label_LEDColor>燈光顏色</label_LEDColor>
+    <label_LightSpeed>速度</label_LightSpeed>
+    <label_LightBrightness>亮度</label_LightBrightness>
+    <label_LightMode>燈光模式</label_LightMode>
+    <customRecordMacro1_start>開始錄製宏</customRecordMacro1_start>
+    <customRecordMacro1_stop>停止錄製宏</customRecordMacro1_stop>
+    <customButton_Export>導出配置</customButton_Export>
+    <customButton_Import>導入配置</customButton_Import>
+    <customButton_Reset>恢復默認</customButton_Reset>
+    <customButton_Save>保存</customButton_Save>
+    <customButton_DeleteButton>刪除</customButton_DeleteButton>
+    <customButton_ModifyButton>修改</customButton_ModifyButton>
+    <customButton_DeleteMacro>刪除</customButton_DeleteMacro>
+    <customButton_NewMacro>新建宏</customButton_NewMacro>
+  </Control>
+  <ComboBox>
+    <ComboBoxName>customComboBox_Config</ComboBoxName>
+    <Item value="0000">配置 1</Item>
+    <Item value="0001">配置 2</Item>
+    <Item value="0002">配置 3</Item>
+    <Item value="0003">配置 4</Item>
+    <ComboBoxName>customComboBox_LOD</ComboBoxName>
+    <Item value="0003">0.7mm</Item>
+    <Item value="0001">1mm</Item>
+    <Item value="0002">2mm</Item>
+    <ComboBoxName>customComboBox_ModeSelect</ComboBoxName>
+    <Item value="0000">LP</Item>
+    <Item value="0001">HP</Item>
+    <Item value="0010">Corded</Item>
+    <ComboBoxName>customComboBox_FullPerformance</ComboBoxName>
+    <Item value="0003">30秒</Item>
+    <Item value="0006">1分鐘</Item>
+    <Item value="0012">2分鐘</Item>
+    <Item value="0030">5分鐘</Item>
+    <Item value="0060">10分鐘</Item>
+    <Item value="0090">15分鐘</Item>
+    <ComboBoxName>customComboBox_DPIEffect</ComboBoxName>
+    <Item value="0000">關閉</Item>
+    <Item value="0001">常亮</Item>
+    <Item value="0002">呼吸</Item>
+    <ComboBoxName>customComboBox_InsertEvent</ComboBoxName>
+    <Item value="0x400000">按鍵按下</Item>
+    <Item value="0x800000">按鍵釋放</Item>
+    <Item value="0xFF0000">延時</Item>
+    <Item value="0x040100">左鍵</Item>
+    <Item value="0x040200">右鍵</Item>
+    <Item value="0x040400">中鍵</Item>
+    <Item value="0x041000">前進键</Item>
+    <Item value="0x040800">後退键</Item>
+    <ComboBoxName>customComboBox_PowerSaveTime</ComboBoxName>
+    <Item value="0001">10秒</Item>
+    <Item value="0003">30秒</Item>
+    <Item value="0006">1分鐘</Item>
+    <Item value="0030">5分鐘</Item>
+    <Item value="0060">10分鐘</Item>
+    <Item value="0090">15分鐘</Item>
+    <Item value="0120">20分鐘</Item>
+    <Item value="0150">25分鐘</Item>
+    <Item value="0180">30分鐘</Item>
+    <Item value="0210">35分鐘</Item>
+    <Item value="0240">40分鐘</Item>
+    <ComboBoxName>customComboBox_LEDMode</ComboBoxName>
+    <Item value="0000">關閉</Item>
+    <Item value="0001">彩色流動</Item>
+    <Item value="0002">單色呼吸</Item>
+    <Item value="0003">彩色常亮</Item>
+    <Item value="0004">霓虹</Item>
+    <Item value="0005">混彩呼吸</Item>
+    <Item value="0006">炫彩常亮</Item>
+  </ComboBox>
+  <ToolStripMenuItem>
+    <ToolStripMenuItem_OpenMenu>打開主介面</ToolStripMenuItem_OpenMenu>
+    <ToolStripMenuItem_Exit>退出程式</ToolStripMenuItem_Exit>
+    <ToolStripMenuItem_Modify>修改</ToolStripMenuItem_Modify>
+    <ToolStripMenuItem_DeleteKeys>刪除</ToolStripMenuItem_DeleteKeys>
+    <ToolStripMenuItem_ExportMacro>導出該宏</ToolStripMenuItem_ExportMacro>
+    <ToolStripMenuItem_Rename>重命名</ToolStripMenuItem_Rename>
+    <ToolStripMenuItem_DeleteMacro>刪除</ToolStripMenuItem_DeleteMacro>
+    <ToolStripMenuItem_NewMacro>新建宏</ToolStripMenuItem_NewMacro>
+    <ToolStripMenuItem_ImportMacro>導入宏</ToolStripMenuItem_ImportMacro>
+  </ToolStripMenuItem>
+  <Setting>
+    <DriveVersion>驅動版本：</DriveVersion>
+    <DongleVersion>接收器固件版本：</DongleVersion>
+    <MouseVersion>滑鼠固件版本：</MouseVersion>
+  </Setting>
+  <Dialog>
+    <Macro>宏</Macro>
+    <NoResources>沒有圖片資源</NoResources>
+    <ErrorDriveConfig>驅動配置不存在或者錯誤</ErrorDriveConfig>
+    <ProgramRuning>程式處於運行狀態</ProgramRuning>
+    <DeviceConnecting>請稍等，正在更新設定</DeviceConnecting>
+    <ConnectTimeout>連接超時，請先移動滑鼠</ConnectTimeout>
+    <NoDevice>未檢測到可以操作的設備</NoDevice>
+    <MaxComboKey>組合鍵最多只能有三個按鍵</MaxComboKey>
+    <ErrorMacroFile>導入的宏檔案錯誤</ErrorMacroFile>
+    <CreateMacro>請先創建一個宏</CreateMacro>
+    <SameMacro>已經有一個同名的宏</SameMacro>
+    <EditMacroName>請輸入宏的名稱</EditMacroName>
+    <SelectMacro>請先選擇一個宏</SelectMacro>
+    <StopMacro>請先停止宏錄製</StopMacro>
+    <InsertKey>請輸入一個按鍵</InsertKey>
+    <Delete>確定刪除？</Delete>
+    <MaxMacroKey>宏按鍵個數已達上限</MaxMacroKey>
+    <InsertDelay>請輸入延遲時間</InsertDelay>
+    <FireKeyTimes>次數（0-3）</FireKeyTimes>
+    <FireKeyInterval>間隔（10-255）</FireKeyInterval>
+    <InputComboKey>請輸入單鍵或組合鍵</InputComboKey>
+    <FireKeyTips>次數設置為0時，按下按鍵一直發，鬆開按鍵結束</FireKeyTips>
+    <ReserveLeftKey>左鍵必須保留</ReserveLeftKey>
+    <DebounceTips>警示：調低延遲有可能出現按鍵雙擊，如果出現雙擊問題請調大延遲時間直到沒有雙擊</DebounceTips>
+    <ConfigSelect>不支持切換配置</ConfigSelect>
+    <ResetConfig>是否需要恢復默認設置</ResetConfig>
+    <ImportConfig>請稍等，正在導入配置</ImportConfig>
+    <ErrorConfig>Importing config Error</ErrorConfig>
+    <ErrorDevice>Importing config does not match the device</ErrorDevice>
+    <MultiOnline>多個滑鼠線上，保留需要操作的設備</MultiOnline>
+    <EnterPair>是否需要重新配對</EnterPair>
+    <Offline>滑鼠處於離線狀態，請先移動滑鼠</Offline>
+    <NewDeviceOnline>有新設備線上</NewDeviceOnline>
+    <LeftShift>左移</LeftShift>
+    <RightShift>右移</RightShift>
+    <MoveUp>上移</MoveUp>
+    <MoveDown>下移</MoveDown>
+    <OK>確定(Enter)</OK>
+    <Cancel>取消(Esc)</Cancel>
+    <SelectDeviceFirst>請先選擇接收器</SelectDeviceFirst>
+    <SelectDevice>選擇接收器</SelectDevice>
+    <StartPair>開始配對(Space)</StartPair>
+    <PairTips>請讓滑鼠進入配對狀態（同時按住左中右鍵3秒，直到對碼指示燈快閃），並靠近接收器，點擊“開始配對”或按鍵盤的空格鍵</PairTips>
+    <MultiPairDevice>發現多個相同接收器，請只保留需要操作的接收器</MultiPairDevice>
+    <NoPairDevice>當前沒有發現可以操作的接收器，請確認是否已插入接收器</NoPairDevice>
+    <CantPair>無線模式下，才能進入配對</CantPair>
+    <OnlyWired>滑鼠只有在有線模式下才能更新</OnlyWired>
+    <DevicePairing>正在配對</DevicePairing>
+    <PairSuccess>配對成功</PairSuccess>
+    <PairFail>配對失敗</PairFail>
+    <PairRetry>重試</PairRetry>
+    <PairingTool>配對工具</PairingTool>
+    <CheckUpdate>檢查更新</CheckUpdate>
+    <CheckingUpdate>正在檢查</CheckingUpdate>
+    <LatestVersion>當前是最新版本</LatestVersion>
+    <Updating>正在更新</Updating>
+    <UpdateSuccess>更新成功</UpdateSuccess>
+    <UpdateFail>更新失敗</UpdateFail>
+    <UpdatingDontMove>正在更新，請勿拔出設備</UpdatingDontMove>
+    <ConnectDevice>請接入你的遊戲裝備</ConnectDevice>
+    <RepairDevice>請先升級失敗的設備（鍵盤enter或點感歎號圖標）</RepairDevice>
+    <AdvancedSetting>高級設置</AdvancedSetting>
+    <PowerBetterMode>遠距離模式</PowerBetterMode>
+    <CantSet>無線模式下才能設置遠距離模式</CantSet>
+    <PowerModeSelectTips> 遠距離模式下，距離會更遠抗干擾能力更強，相應工作電流會加大，使用時間會減少</PowerModeSelectTips>
+    <MousepadSurfaceCal>滑鼠墊表面校準</MousepadSurfaceCal>
+    <ManualCal>手動校準</ManualCal>
+    <NonsupCal>此款傳感器不支持手動校準</NonsupCal>
+    <MousepadSurfaceCalTips> 找到滑鼠與滑鼠墊的最佳搭配參數，體驗更高級別的追蹤精度</MousepadSurfaceCalTips>
+    <WinSystemMouse>Windows滑鼠屬性</WinSystemMouse>
+    <StartCal>請點擊“開始”按鈕，並按箭頭方向移動滑鼠</StartCal>
+    <BeingCal>正在校準滑鼠!請繼續移動滑鼠直到校準完成</BeingCal>
+    <CalPass>校準成功</CalPass>
+    <CalFail>校準失敗</CalFail>
+    <Start>開始</Start>
+    <Back>返回</Back>
+    <Retry>重試</Retry>
+    <DongleLED>选择接收器上的LED指示灯所传达的信息：</DongleLED>
+    <ConnectionState>连接状态和回报率（只有当鼠标连接到接收器时才有按照不同回报率对应的颜色点亮。红色（125Hz），蓝色（250Hz），黄色（500Hz），橙色（1000Hz），紫色（2000Hz），绿色（4000Hz））。</ConnectionState>
+    <BatteryState>电池状态（根据鼠标当前的电池电量，从绿色（100%），黄色（66%），橙色（33%）和红色（0%）逐渐变化。）</BatteryState>
+    <OnlyBattery>仅电池警告（始终保持熄灭，仅在鼠标需要充电式闪烁红色。）</OnlyBattery>
+    <Language>語言</Language>
+    <DeviceInfo>設備信息</DeviceInfo>
+    <Other>其他</Other>
+    <SleepMode>休眠模式</SleepMode>
+    <MouseSleepTime>放停後滑鼠休眠時間</MouseSleepTime>
+    <Pair>配對(Space)</Pair>
+    <RunOnBoot>開機自動啟動</RunOnBoot>
+    <OfflineTips1>若滑鼠處於離線狀態，請先移動滑鼠</OfflineTips1>
+    <OfflineTips2>若未配對過，請單擊圖案進行配對</OfflineTips2>
+    <OfflineTips3>若未配對過，請單擊空格鍵進行配對</OfflineTips3>
+    <DefaultDelayMin>默認延時不低於10</DefaultDelayMin>
+    <DevNewVerTips>請務必同時將滑鼠和接收器出入電腦，進入固件升級；若升級成功後不能使用，請進行配對後再使用！</DevNewVerTips>
+    <DongleIsNewTips>滑鼠發現新固件，請先在有線模式下更新！</DongleIsNewTips>
+    <MouseIsNewTips>接收器發現新固件，是否現在更新？</MouseIsNewTips>
+    <FirmwareNewTips>發現新固件，請更新！</FirmwareNewTips>
+    <DontShowAgain>下次不再顯示</DontShowAgain>
+    <EnterUse>點擊圖案開始使用</EnterUse>
+    <ReturnHomePage>返回主頁</ReturnHomePage>
+    <MotionSyncDes>圓滑修正算法</MotionSyncDes>
+    <FixLineDes>修正直線軌跡</FixLineDes>
+    <RippleDes>修正波浪形抖動</RippleDes>
+    <LODDes>靜默高度</LODDes>
+    <ModeSelectDes> LP：普通模式；HP：高性能模式；corded：超性能模式</ModeSelectDes>
+    <FullPerformanceDes>傳感器LED燈高亮，傳感器處於最高性能的工作模式</FullPerformanceDes>
+    <Update>升級（Enter）</Update>
+    <SyncUpdateTips>請先確保插入接收器和有線滑鼠，升級期間請勿關閉軟體或者拔插設備。</SyncUpdateTips>
+    <ReadyUpdate>點擊“升級”按鈕開始升級</ReadyUpdate>
+    <EmptyDongle>請確認是否已插入接收器</EmptyDongle>
+    <MultiDongle>發現多個接收器，請保留需要升級的接收器</MultiDongle>
+    <EmptyMouse>請確認滑鼠是否接入有線</EmptyMouse>
+    <MultiMouse>發現多個滑鼠，請保留需要升級的滑鼠</MultiMouse>
+  </Dialog>
+  <KeyFunction>
+    <name type="01" value="0001" pull="00">左鍵</name>
+    <name type="01" value="0002" pull="00">右鍵</name>
+    <name type="01" value="0004" pull="00">中鍵</name>
+    <name type="01" value="0008" pull="00">後退鍵</name>
+    <name type="01" value="0010" pull="00">前進鍵</name>
+    <name type="07" value="0000" pull="00">切換報告率</name>
+    <name type="04" value="0000" pull="00">火力鍵</name>
+    <name type="05" value="0000" pull="00">組合鍵</name>
+    <name type="00" value="0000" pull="00">待定義按鍵</name>
+    <name type="0B" value="0000" pull="01">滾輪上/下滾動</name>
+    <name type="03" value="0000" pull="01">滾輪左/右搖擺</name>
+    <name type="02" value="0000" pull="01">DPI切換</name>
+    <name type="05" value="0000" pull="01">多媒體功能</name>
+    <name type="0A" value="0000" pull="01">DPI鎖定</name>
+    <name type="06" value="0000" pull="01">宏定義</name>
+  </KeyFunction>
+  <SubKeyFunction>
+    <name type="02" value="0001">DPI迴圈</name>
+    <name type="02" value="0002">DPI+</name>
+    <name type="02" value="0003">DPI-</name>
+    <name type="03" value="0001">滾輪左擺</name>
+    <name type="03" value="0002">滾輪右擺</name>
+    <name type="0B" value="0001">滾輪上滾</name>
+    <name type="0B" value="0002">滾輪下滾</name>
+    <name type="05" value="0183">播放器</name>
+    <name type="05" value="00CD">播放/暫停</name>
+    <name type="05" value="00B5">下一曲</name>
+    <name type="05" value="00B6">上一曲</name>
+    <name type="05" value="00B7">停止播放</name>
+    <name type="05" value="00E2">靜音</name>
+    <name type="05" value="00E9">音量加</name>
+    <name type="05" value="00EA">音量减</name>
+    <name type="05" value="018A">郵件</name>
+    <name type="05" value="0192">計算器</name>
+    <name type="05" value="0194">我的電腦</name>
+    <name type="05" value="0223">主頁</name>
+    <name type="05" value="0221">搜索</name>
+    <name type="05" value="0225">網頁前進</name>
+    <name type="05" value="0224">網頁後退</name>
+    <name type="05" value="0226">停止網頁</name>
+    <name type="05" value="0227">刷新</name>
+    <name type="05" value="022A">收藏夾</name>
+    <name type="08" value="0000">開/關所有裝飾燈</name>
+    <name type="08" value="0003">開/關燈帶</name>
+    <name type="08" value="0004">迴圈切換燈帶效果</name>
+    <name type="0A" value="0001">100</name>
+    <name type="0A" value="0002">200</name>
+    <name type="0A" value="0003">300</name>
+    <name type="0A" value="0004">400</name>
+    <name type="0A" value="0005">500</name>
+    <name type="0A" value="0006">600</name>
+    <name type="0A" value="0007">700</name>
+    <name type="0A" value="0008">800</name>
+    <name type="0A" value="0009">900</name>
+    <name type="0A" value="000A">1000</name>
+    <name type="0A" value="000B">1100</name>
+    <name type="0A" value="000C">1200</name>
+  </SubKeyFunction>
+  <DebounceTime>
+    <name value="0000">0ms</name>
+    <name value="0001">1ms</name>
+    <name value="0002">2ms</name>
+    <name value="0003">3ms</name>
+    <name value="0004">4ms</name>
+    <name value="0005">5ms</name>
+    <name value="0006">6ms</name>
+    <name value="0007">7ms</name>
+    <name value="0008">8ms</name>
+    <name value="0009">9ms</name>
+    <name value="000A">10ms</name>
+    <name value="000B">11ms</name>
+    <name value="000C">12ms</name>
+    <name value="000D">13ms</name>
+    <name value="000E">14ms</name>
+    <name value="000F">15ms</name>
+    <name value="0010">16ms</name>
+    <name value="0011">17ms</name>
+    <name value="0012">18ms</name>
+    <name value="0013">19ms</name>
+    <name value="0014">20ms</name>
+  </DebounceTime>
+</繁體中文>
